@@ -611,6 +611,14 @@ background: rgba(31, 45, 42, 0.25);
 transform: translateY(-2px);
 }
 
+.service-icon svg,
+.contact-icon svg {
+    width: 40px;   
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
 /* Contact Section */
 .contact {
 background: var(--bg-dark);
