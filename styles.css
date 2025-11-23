@@ -673,6 +673,15 @@ color: var(--text-secondary);
 line-height: 1.6;
 }
 
+.contact-item {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-item:hover {
+    cursor: pointer;
+}
+
 .contact-form {
 display: flex;
 flex-direction: column;
